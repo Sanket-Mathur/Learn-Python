@@ -25,3 +25,10 @@ print(firstname, lastname, age)
 var1 = var2 = var3 = 20
 print(var1, var2, var3)
 
+"""
+Here we will see another concept called as unpacking used to assign multiple values at once.
+For this we use a data type called as a tupple which is a collection values that we'll discuss about later.
+"""
+
+maths, physics, chemistry = (94, 89, 72)
+print(maths, physics, chemistry)
