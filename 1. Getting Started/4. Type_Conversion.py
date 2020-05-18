@@ -5,6 +5,7 @@ integer: int()
 float: float()
 string: str()
 ascii: ord()
+char: ord()
 binary: bin()
 octal: oct()
 hexadecimal: hex()
@@ -23,9 +24,10 @@ print(hex(i))
 print(int('1000',2))
 # And so on with octal and hexadecimal
 
-# Let's end this with checking the acsii value of A
+# Let's end this with checking the acsii value of A and character at 67
 
 print(ord('A'))
+print(chr(67))
 
 """
 These are not all type conversions.
