@@ -1,0 +1,5 @@
+CRITICAL:root:Message 1
+WARNING:root:Messame 3
+ERROR:root:Message 2
+DEBUG:root:Message 5
+INFO:root:Message 4
